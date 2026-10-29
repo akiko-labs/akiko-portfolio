@@ -4,22 +4,39 @@ export default function Home() {
       <div className="mx-auto max-w-4xl">
 
         {/* Hero */}
-        <section className="rounded-2xl bg-white p-10 shadow-md">
+        <section className="rounded-2xl bg-white p-12 shadow-md">
           <h1 className="text-5xl font-bold text-slate-900">
             Akiko
           </h1>
 
-          <p className="mt-4 text-xl text-slate-600">
-            AI & Business Process Improvement Engineer
-          </p>
+<p className="mt-4 text-2xl text-slate-600">
+  AI & DX Engineer
+</p>
+<p className="mt-8 text-lg text-slate-700 leading-relaxed">
+  生成AIとローコード開発を活用し、
+  <br />
+  現場業務の効率化とDX推進を支援しています。
+</p>
 
-          <p className="mt-6 leading-7 text-slate-700">
-            Copilot Studio、Salesforce、Power Platformを活用した
-            <br />
-            業務改善・自動化ソリューションの開発に取り組んでいます。
-            <br />
-            生成AIを活用したDX推進を得意としています。
-          </p>
+<div className="mt-8 flex gap-4">
+  <a
+    href="https://www.linkedin.com/in/akiko-m-b0072a40b/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="rounded-lg bg-blue-600 px-4 py-2 text-white hover:bg-blue-700"
+  >
+    LinkedIn
+  </a>
+
+  <a
+    href="https://github.com/akiko-labs/akiko-portfolio"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="rounded-lg bg-slate-800 px-4 py-2 text-white hover:bg-slate-900"
+  >
+    GitHub
+  </a>
+</div>
         </section>
 
         {/* About */}
@@ -31,21 +48,27 @@ export default function Home() {
           <p className="mt-4 leading-7 text-slate-700">
             企業の業務改善やDX推進をテーマに、
             <br />
-            Copilot Studio、Salesforce、Power Platformを用いた
+            Copilot Studio、Power Platform、Salesforceを活用した
             <br />
-            システム開発・自動化に取り組んでいます。
+            業務アプリケーション開発やプロセス自動化に取り組んでいます。
+            <br /><br />
+            生成AIを活用したチャットボット構築や、
             <br />
-            生成AIを活用した業務効率化や、
+            Power Platformによる業務改善アプリ開発、
             <br />
-            現場で利用されるアプリケーション開発を得意としています。
+            Salesforceを活用した業務システム開発を経験しています。
           </p>
         </section>
 
         {/* Skills */}
         <section className="mt-8 rounded-2xl bg-white p-8 shadow-md">
-          <h3 className="mb-3 font-semibold">
+<h2 className="text-2xl font-bold mb-6">
+  Skills
+</h2>
+
+<p className="mb-3 text-lg font-semibold text-slate-700">
   Platform
-</h3>
+</p>
 
 <div className="flex flex-wrap gap-3">
   {[
@@ -64,9 +87,9 @@ export default function Home() {
   ))}
 </div>
 
-<h3 className="mt-6 mb-3 font-semibold">
+<p className="mt-6 mb-3 text-lg font-semibold text-slate-700">
   Development
-</h3>
+</p>
 
 <div className="flex flex-wrap gap-3">
   {[
@@ -93,12 +116,20 @@ export default function Home() {
           <div className="mt-5 grid gap-4">
 
             <div className="rounded-xl border border-slate-200 p-5">
-              <h3 className="text-lg font-semibold">
+              <h3 className="text-xl font-semibold">
              Copilot Studio
               </h3>
 
-              <p className="mt-2 text-slate-600">
+              <p className="text-base text-slate-700 leading-relaxed">
                 就業規則回答チャットボットを構築。
+                <br />
+                Copilot StudioとPower Automateを活用し、
+                社内問い合わせ対応の効率化を実現。
+                <br />
+
+                使用技術:
+                Copilot Studio / Power Automate
+
               </p>
               <a
   href="https://catkin-rice-b6c.notion.site/Copilot-Studio-33eeb09b545380a694a7c8d008e9774c"
@@ -111,12 +142,19 @@ export default function Home() {
             </div>
 
 <div className="rounded-xl border border-slate-200 p-5">
-  <h3 className="text-lg font-semibold">
+  <h3 className="text-xl font-semibold">
     Salesforce
   </h3>
 
-  <p className="mt-2 text-slate-600">
-    構造物自動判定機能を開発。
+  <p className="text-base text-slate-700 leading-relaxed">
+    構造物画像の判定支援機能を開発。
+    <br />
+    Salesforce上でデータ管理と業務フローを設計し、
+    作業効率化と入力品質向上を実現。
+    <br />
+
+使用技術:
+Salesforce / Apex / Flow
   </p>
 
   <a
@@ -129,12 +167,19 @@ export default function Home() {
   </a>
 </div>
 <div className="rounded-xl border border-slate-200 p-5">
-  <h3 className="text-lg font-semibold">
+  <h3 className="text-xl font-semibold">
     Power Platform
   </h3>
 
-  <p className="mt-2 text-slate-600">
+  <p className="text-base text-slate-700 leading-relaxed">
     熱中症対策報告アプリを開発。
+    <br />
+    現場作業者がモバイルから報告できる仕組みを構築し、
+    管理者による状況把握を効率化。
+    <br />
+
+    使用技術:
+    Power Apps / Power Automate
   </p>
 
   <a
@@ -150,23 +195,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Contact */}
-        <section className="mt-8 rounded-2xl bg-white p-8 shadow-md">
-          <h2 className="text-2xl font-bold text-slate-900">
-            Contact
-          </h2>
-
-          <div className="mt-4">
-            <a
-              href="https://github.com/akiko-labs"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 hover:underline"
-            >
-              GitHub
-            </a>
-          </div>
-        </section>
 
       </div>
     </main>
