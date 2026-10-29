@@ -85,15 +85,42 @@ export default function Home() {
 </a>
             </div>
 
-            <div className="rounded-xl border border-slate-200 p-5">
-              <h3 className="text-lg font-semibold">
-                Coming Soon...
-              </h3>
+<div className="rounded-xl border border-slate-200 p-5">
+  <h3 className="text-lg font-semibold">
+    Salesforce
+  </h3>
 
-              <p className="mt-2 text-slate-600">
-                今後制作したアプリを掲載予定。
-              </p>
-            </div>
+  <p className="mt-2 text-slate-600">
+    構造物自動判定機能を開発。
+  </p>
+
+  <a
+    href="https://catkin-rice-b6c.notion.site/Salesforce-39eeb09b545380a4833aeb76414ae940"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="mt-3 inline-block text-blue-600 hover:underline"
+  >
+    詳細を見る
+  </a>
+</div>
+<div className="rounded-xl border border-slate-200 p-5">
+  <h3 className="text-lg font-semibold">
+    Power Platform
+  </h3>
+
+  <p className="mt-2 text-slate-600">
+    熱中症対策報告アプリを開発。
+  </p>
+
+  <a
+    href="https://catkin-rice-b6c.notion.site/Power-Platform-3feeb09b54538056a4c1c0ecbc2274bc"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="mt-3 inline-block text-blue-600 hover:underline"
+  >
+    詳細を見る
+  </a>
+</div>
 
           </div>
         </section>
