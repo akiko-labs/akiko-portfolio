@@ -10,12 +10,15 @@ export default function Home() {
           </h1>
 
           <p className="mt-4 text-xl text-slate-600">
-            Front-End Developer in Training
+            AI & Business Process Improvement Engineer
           </p>
 
           <p className="mt-6 leading-7 text-slate-700">
-            Webエンジニアを目指して学習中。
-            React・Next.jsを中心にモダンなフロントエンド開発を学んでいます。
+            Copilot Studio、Salesforce、Power Platformを活用した
+            <br />
+            業務改善・自動化ソリューションの開発に取り組んでいます。
+            <br />
+            生成AIを活用したDX推進を得意としています。
           </p>
         </section>
 
@@ -26,37 +29,59 @@ export default function Home() {
           </h2>
 
           <p className="mt-4 leading-7 text-slate-700">
-            ポートフォリオサイト制作を通して、
-            Web開発の技術を実践的に学んでいます。
-            ユーザーにとって使いやすいUIや体験を意識しながら開発に取り組んでいます。
+            企業の業務改善やDX推進をテーマに、
+            <br />
+            Copilot Studio、Salesforce、Power Platformを用いた
+            <br />
+            システム開発・自動化に取り組んでいます。
+            <br />
+            生成AIを活用した業務効率化や、
+            <br />
+            現場で利用されるアプリケーション開発を得意としています。
           </p>
         </section>
 
         {/* Skills */}
         <section className="mt-8 rounded-2xl bg-white p-8 shadow-md">
-          <h2 className="text-2xl font-bold text-slate-900">
-            Skills
-          </h2>
+          <h3 className="mb-3 font-semibold">
+  Platform
+</h3>
 
-          <div className="mt-5 flex flex-wrap gap-3">
-            {[
-              "HTML",
-              "CSS",
-              "JavaScript",
-              "TypeScript",
-              "React",
-              "Next.js",
-              "Git",
-              "GitHub",
-            ].map((skill) => (
-              <span
-                key={skill}
-                className="rounded-full bg-blue-100 px-4 py-2 text-sm font-medium text-blue-800"
-              >
-                {skill}
-              </span>
-            ))}
-          </div>
+<div className="flex flex-wrap gap-3">
+  {[
+    "Copilot Studio",
+    "Power Platform",
+    "Power Apps",
+    "Power Automate",
+    "Salesforce",
+  ].map((skill) => (
+    <span
+      key={skill}
+      className="rounded-full bg-blue-100 px-4 py-2 text-sm font-medium text-blue-800"
+    >
+      {skill}
+    </span>
+  ))}
+</div>
+
+<h3 className="mt-6 mb-3 font-semibold">
+  Development
+</h3>
+
+<div className="flex flex-wrap gap-3">
+  {[
+    "Next.js",
+    "Git",
+    "GitHub",
+  ].map((skill) => (
+    <span
+      key={skill}
+      className="rounded-full bg-blue-100 px-4 py-2 text-sm font-medium text-blue-800"
+    >
+      {skill}
+    </span>
+  ))}
+</div>
         </section>
 
         {/* Works */}
