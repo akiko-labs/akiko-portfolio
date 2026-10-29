@@ -62,20 +62,27 @@ export default function Home() {
         {/* Works */}
         <section className="mt-8 rounded-2xl bg-white p-8 shadow-md">
           <h2 className="text-2xl font-bold text-slate-900">
-            Works
+          Featured Projects
           </h2>
 
           <div className="mt-5 grid gap-4">
 
             <div className="rounded-xl border border-slate-200 p-5">
               <h3 className="text-lg font-semibold">
-                Portfolio Site
+             Copilot Studio
               </h3>
 
               <p className="mt-2 text-slate-600">
-                Next.js と Tailwind CSS を利用した
-                個人ポートフォリオサイト。
+                就業規則回答チャットボットを構築。
               </p>
+              <a
+  href="https://catkin-rice-b6c.notion.site/Copilot-Studio-33eeb09b545380a694a7c8d008e9774c"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-3 inline-block text-blue-600 hover:underline"
+>
+  詳細を見る
+</a>
             </div>
 
             <div className="rounded-xl border border-slate-200 p-5">
