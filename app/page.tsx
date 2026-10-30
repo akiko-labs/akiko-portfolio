@@ -147,7 +147,7 @@ export default function Home() {
   </h3>
 
   <p className="text-base text-slate-700 leading-relaxed">
-    構造物画像の判定支援機能を開発。
+    構造物の判定支援機能を開発。
     <br />
     Salesforce上でデータ管理と業務フローを設計し、
     作業効率化と入力品質向上を実現。
